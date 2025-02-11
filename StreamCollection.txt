@@ -1,0 +1,92 @@
+📅 Week 1: Basics of Collections (List, Set, Map)
+Day 1: ArrayList Basics
+Create an ArrayList<Integer> and add 10 numbers. Print the list. (ArrayList)
+Remove all even numbers from an ArrayList<Integer>. (ArrayList)
+Find the maximum number in an ArrayList<Integer> using Stream API. (Streams)
+Day 2: List Operations
+Convert an ArrayList<String> to a HashSet<String>. (List, Set)
+Reverse an ArrayList<Integer> without using a loop. (Lambda, Collections)
+Find all strings that start with "A" in an ArrayList<String>. (Streams)
+Day 3: HashSet Basics
+Create a HashSet<Integer> and add duplicate elements. Observe the result. (HashSet)
+Convert a HashSet<String> to an ArrayList<String>. (Set, List)
+Find unique numbers from a list using HashSet. (HashSet, Streams)
+Day 4: HashMap Basics
+Create a HashMap<String, Integer> to store student names and marks. Print all entries. (HashMap)
+Find the student with the highest marks from the HashMap. (Streams)
+Convert a HashMap keys to a list and sort them. (HashMap, List)
+Day 5: Advanced List Operations
+Merge two ArrayList<Integer> and remove duplicates. (List, Set, Streams)
+Find the second largest number in an ArrayList<Integer>. (Streams, Sorting)
+Sort a list of Person(name, age) objects by age. (Lambda, Comparator)
+Day 6: Advanced Set Operations
+Find common elements between two HashSet<Integer>. (Set)
+Remove all elements from a HashSet<Integer> that are present in another HashSet<Integer>. (Set)
+Find the first element in a TreeSet<Integer>. (TreeSet)
+Day 7: Queue & Stack Basics
+Implement a simple queue using LinkedList<Integer>. (Queue)
+Implement a stack using Stack<Integer>. (Stack)
+Reverse a string using Stack. (Stack)
+📅 Week 2: Intermediate Collection Challenges
+Day 8: Working with TreeMap
+Create a TreeMap<String, Integer> and add 5 key-value pairs. Print in sorted order. (TreeMap)
+Find the lowest key in a TreeMap<String, Integer>. (TreeMap)
+Find the employee with the highest salary using a TreeMap<String, Integer>. (TreeMap, Streams)
+Day 9: More List Operations
+Remove all elements from a list that start with "B". (List, Streams)
+Find the most repeated number in an ArrayList<Integer>. (HashMap, Streams)
+Convert a List<String> to a Map<String, Integer> where value is string length. (List, Map, Streams)
+Day 10: PriorityQueue Operations
+Implement a PriorityQueue<Integer> with descending order. (PriorityQueue)
+Find the k smallest elements from an array using a PriorityQueue. (PriorityQueue)
+Find the top 3 highest salaries from an employee list. (PriorityQueue, Streams)
+Day 11: Lambda Expressions
+Sort a List<Integer> in descending order using a Lambda Expression. (Lambda)
+Remove all null values from a List<String> using Streams. (Streams)
+Convert all names in a list to uppercase using Lambda. (Lambda, Streams)
+Day 12: More Set Operations
+Convert a HashSet<String> to a TreeSet<String>. (Set)
+Find the union of two sets. (Set, Streams)
+Find the intersection of two sets. (Set, Streams)
+Day 13: Stream API Advanced
+Find the longest word in a list using Stream API. (Streams)
+Count how many numbers in a list are greater than 10 using Stream API. (Streams)
+Check if a List<String> contains any word that starts with "J". (Streams)
+Day 14: Working with LinkedList
+Implement a doubly linked list using LinkedList<Integer>. (LinkedList)
+Find the middle element of a LinkedList<Integer> in one pass. (LinkedList)
+Remove duplicates from a LinkedList<Integer> using HashSet. (LinkedList, Set)
+📅 Week 3: Advanced Collection Concepts
+Day 15: Nested Collections
+Create a Map<String, List<Integer>> and add student marks. (Map, List)
+Flatten a List<List<Integer>> into a single list using flatMap(). (Streams, FlatMap)
+Find students with marks greater than 80 using Stream API. (Streams, Map)
+Day 16: Grouping and Partitioning
+Group words by their first letter using groupingBy(). (Streams, Collectors)
+Partition numbers into even and odd using partitioningBy(). (Streams, Collectors)
+Find the sum of values for each key in a Map<String, List<Integer>>. (Streams, Map)
+Day 17: Sorting Collections
+Sort a Map<String, Integer> by value in descending order. (Map, Streams)
+Sort a List<Employee> based on salary in ascending order. (Lambda, Comparator)
+Sort a List<Student> based on marks, then name. (Lambda, Comparator)
+Day 18: Real-World Use Cases
+Find duplicate words in a paragraph using HashMap. (Map, Streams)
+Implement a caching system using LinkedHashMap. (Map, LinkedHashMap)
+Find the first non-repeated character in a string. (Map, Streams)
+Day 19: Functional Programming
+Implement a custom Functional Interface for arithmetic operations. (Lambda)
+Use Function<T,R> to convert a list of integers to their squares. (Lambda, Functional Interfaces)
+Use Predicate<T> to filter a list of names that start with "S". (Lambda, Predicate)
+Day 20: Complex Scenarios
+Merge two maps and sum values of matching keys. (Map, Streams)
+Find employees with salaries between 50K and 100K using Streams. (Streams)
+Convert a list of full names ("John Doe") to first names only. (Streams, Mapping)
+📅 Week 4: Challenging Problems
+Final Days: Performance Optimization & Challenges
+Compare the performance of ArrayList vs LinkedList for insertions. (Collections Performance)
+Compare performance of HashMap vs TreeMap for key lookups. (Collections Performance)
+Find the most common element in a list efficiently. (HashMap, Streams)
+Day 30: Real-World Use Case
+Implement an LRU Cache using LinkedHashMap. (Map, LinkedHashMap)
+Implement a thread-safe list using Collections.synchronizedList(). (Concurrency)
+Implement a custom sorting order for a priority queue. (PriorityQueue, Comparator)

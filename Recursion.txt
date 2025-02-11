@@ -1,0 +1,94 @@
+📅 Week 1: Fundamentals of Recursion
+Day 1
+Print numbers from N to 1 using recursion
+Print numbers from 1 to N using recursion
+Day 2
+Find the sum of the first N natural numbers
+Find the factorial of a number
+Day 3
+Find the Nth Fibonacci number
+Print the first N Fibonacci numbers
+Day 4
+Calculate the sum of digits of a number
+Count the number of digits in a number
+Day 5
+Reverse a given number using recursion
+Check if a number is a palindrome
+Day 6
+Find the power of a number (X^N) using recursion
+Find the greatest common divisor (GCD) of two numbers
+Day 7
+Print an array in reverse order
+Find the maximum element in an array using recursion
+📅 Week 2: Exploring Recursion Further
+Day 8
+Find the sum of elements in an array
+Check if an array is sorted (ascending order)
+Day 9
+Find the first occurrence of an element in an array
+Find the last occurrence of an element in an array
+Day 10
+Count occurrences of an element in an array
+Print all elements of an array using recursion
+Day 11
+Reverse a string using recursion
+Check if a string is a palindrome
+Day 12
+Convert a decimal number to binary using recursion
+Find the product of two numbers using recursion (without * operator)
+Day 13
+Find the sum of even numbers up to N
+Find the sum of odd numbers up to N
+Day 14
+Print all subsets of a given string
+Print all subsequences of an array
+📅 Week 3: Intermediate Recursion Concepts
+Day 15
+Print numbers from N to 1 (Tail Recursion)
+Print numbers from 1 to N (Head Recursion)
+Day 16
+Find the sum of elements in an array using Tail Recursion
+Find the product of elements in an array using Tail Recursion
+Day 17
+Generate all binary strings of length N
+Find the sum of alternate elements in an array
+Day 18
+Find the sum of squares of first N numbers
+Find the sum of cubes of first N numbers
+Day 19
+Find the nth Tribonacci number (like Fibonacci, but sum of three previous terms)
+Find the sum of the first N Fibonacci numbers
+Day 20
+Find the number of ways to climb N stairs (1-step or 2-step at a time)
+Find the number of ways to reach the Nth step in a staircase (1-step, 2-step, or 3-step moves)
+📅 Week 4: Strengthening Recursion Skills
+Day 21
+Find all permutations of a string (basic version, without duplicates)
+Find all permutations of a given array
+Day 22
+Find the sum of array elements between two indices using recursion
+Find the minimum element in an array using recursion
+Day 23
+Check if a number is prime using recursion
+Check if an array is sorted in descending order using recursion
+Day 24
+Generate all subsets of a given array
+Find all subsets of a given sum in an array
+Day 25
+Reverse a stack using recursion
+Sort a stack using recursion
+Day 26
+Generate all balanced parentheses for given N pairs
+Print all possible letter combinations for a given phone keypad digit sequence
+Day 27
+Generate all possible palindromic partitions of a string
+Find all possible ways to split a string into dictionary words
+Day 28
+Find all unique subsets of a given string (without duplicates)
+Find all unique subsequences of a string
+Day 29
+Generate all possible ways to arrange N queens on an N×N chessboard (N-Queens Problem – Basic Implementation)
+Find the total number of paths in an NxM grid (Only Right & Down moves allowed)
+Day 30
+Find all unique ways to break a given number into a sum of smaller numbers
+Find the number of unique ways to tile a floor of size 2×N using 1×2 tiles

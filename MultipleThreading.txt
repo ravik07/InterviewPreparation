@@ -1,0 +1,94 @@
+Week 1: Basics of Multithreading
+Day 1: Thread Creation
+Create a thread using Thread class and print numbers from 1 to 10. (Thread Basics)
+Create a thread using Runnable interface to print numbers from 1 to 10. (Runnable Interface)
+Day 2: Thread Lifecycle
+Implement a thread that goes through all states (NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED). (Thread Lifecycle)
+Add sleep() in a thread and observe its effect. (Thread Sleep)
+Day 3: Thread Synchronization
+Implement two threads that increment a shared counter without synchronization. Observe the issue. (Race Condition)
+Fix the above issue using synchronized keyword. (Thread Synchronization)
+Day 4: Using synchronized Methods and Blocks
+Implement a synchronized method in a class that increments a counter. (Synchronized Methods)
+Implement a synchronized block instead of a method to achieve thread safety. (Synchronized Blocks)
+Day 5: Deadlock
+Create two threads that lead to a deadlock condition. (Deadlock)
+Fix the deadlock using proper lock ordering. (Deadlock Prevention)
+Day 6: Inter-Thread Communication
+Implement wait() and notify() for thread communication. (Inter-Thread Communication)
+Implement wait() and notifyAll() to wake up multiple waiting threads. (NotifyAll Usage)
+Day 7: Thread Join
+Demonstrate the use of join() to wait for a thread to finish execution. (Thread Join)
+Modify the join() example to wait for multiple threads. (Multiple Thread Join)
+📅 Week 2: Advanced Synchronization & Thread Coordination
+Day 8: Thread Pools
+Implement a thread pool using ExecutorService with fixed number of threads. (Thread Pools)
+Use Callable with Future to get the result from a thread. (Callable & Future)
+Day 9: Reentrant Locks
+Implement a thread-safe counter using ReentrantLock. (ReentrantLock)
+Demonstrate the use of tryLock() to avoid blocking threads. (TryLock Usage)
+Day 10: Read-Write Locks
+Implement a shared resource using ReadWriteLock. (ReadWriteLock)
+Allow multiple readers but only one writer in a ReadWriteLock scenario. (Read-Write Synchronization)
+Day 11: Atomic Variables
+Implement a thread-safe counter using AtomicInteger. (Atomic Variables)
+Modify a shared resource using AtomicReference. (Atomic Reference)
+Day 12: Countdown Latch
+Implement a CountDownLatch to wait for multiple threads to finish before proceeding. (Countdown Latch)
+Modify the latch example to simulate a multi-stage task execution. (Countdown Latch in Stages)
+Day 13: Cyclic Barrier
+Implement a CyclicBarrier to synchronize threads before continuing. (Cyclic Barrier)
+Use CyclicBarrier for parallel task processing, ensuring all tasks start together. (Parallel Task Coordination)
+Day 14: Semaphore
+Implement a Semaphore to allow only 3 threads to access a resource at a time. (Semaphore Basics)
+Modify Semaphore to limit database connections in a system. (Semaphore in Database Connection)
+📅 Week 3: Thread Optimization & Parallel Computing
+Day 15: ForkJoin Framework
+Implement parallel processing using ForkJoinPool. (ForkJoin Framework)
+Use RecursiveTask to calculate sum of numbers using ForkJoin. (RecursiveTask)
+Day 16: BlockingQueue
+Implement a producer-consumer model using BlockingQueue. (Producer-Consumer)
+Modify the above example to allow multiple producers and consumers. (Multiple Producer-Consumer)
+Day 17: Concurrent Collections
+Implement ConcurrentHashMap to store shared data safely. (Concurrent Collections)
+Use CopyOnWriteArrayList to avoid ConcurrentModificationException. (Thread-Safe List)
+Day 18: Parallel Streams
+Convert a normal Stream to parallelStream() for performance. (Parallel Streams)
+Use parallelStream() to process a large dataset faster. (Parallel Processing)
+Day 19: Thread Interruptions
+Implement a thread that stops when interrupted. (Thread Interruption)
+Modify the example to handle interruptions gracefully. (Handling InterruptedException)
+Day 20: Thread Priorities
+Set different priorities for multiple threads and observe execution. (Thread Priority)
+Explain why Thread priorities may not guarantee execution order. (Thread Scheduling)
+📅 Week 4: Complex Scenarios & Real-World Applications
+Day 21: Simulating a Multi-User System
+Implement a ticket booking system where multiple users book tickets simultaneously. (Real-World Multithreading)
+Use synchronized blocks to ensure proper seat allocation. (Concurrency in Booking)
+Day 22: Batch Processing with Threads
+Implement a batch file processor where multiple files are read in parallel. (Batch Processing)
+Improve the above implementation using ExecutorService. (Optimized Batch Processing)
+Day 23: Web Scraper with Multithreading
+Implement a simple web scraper that downloads multiple pages in parallel. (Parallel Web Scraping)
+Use Callable to fetch multiple URLs and return results. (Web Scraping with Callable)
+Day 24: Rate Limiting using Semaphore
+Implement API rate limiting using Semaphore. (API Rate Limiting)
+Modify it to support different user tiers with different limits. (Rate Limiting with Tiers)
+Day 25: Multi-Threaded Sorting
+Implement Merge Sort using multiple threads. (Parallel Sorting)
+Modify the above to use ForkJoinPool for sorting. (Merge Sort Optimization)
+Day 26: Real-World Concurrency Issues
+Simulate a bank transaction system where multiple users deposit and withdraw money. (Concurrency in Banking)
+Fix race conditions using Atomic Variables and Locks. (Banking System Fixes)
+Day 27: Complex Thread Pool Management
+Implement a thread pool that adjusts its size dynamically based on the workload. (Adaptive Thread Pool)
+Use ScheduledExecutorService to execute periodic tasks. (Scheduled Thread Pool)
+Day 28: Multithreading in Microservices
+Implement an order processing system where multiple orders are processed in parallel. (Microservices Concurrency)
+Optimize order processing using parallel streams and queues. (Optimized Order Processing)
+Day 29: Deadlock Detection and Prevention
+Implement a deadlock detection mechanism in a multi-threaded environment. (Deadlock Detection)
+Apply lock ordering and timeout-based locking to avoid deadlocks. (Deadlock Prevention)
+Day 30: Final Challenge – Building a Thread-Safe Cache
+Implement a thread-safe LRU Cache using ConcurrentHashMap and LinkedHashMap. (Thread-Safe Cache)
+Optimize the cache for high-performance multi-threaded access. (High-Performance Caching)

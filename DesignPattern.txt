@@ -1,0 +1,30 @@
+📅 Day 1: Singleton Pattern
+Implement a Singleton class for a database connection. (Creational - Singleton)
+Modify the Singleton pattern to support lazy initialization. (Singleton - Lazy Initialization)
+📅 Day 2: Factory Pattern
+Implement a Factory Pattern for creating different types of shapes (Circle, Square, Triangle). (Creational - Factory Method)
+Extend the factory to include color properties for each shape. (Factory Method - Variation)
+📅 Day 3: Builder Pattern
+Implement a Builder Pattern for creating a Car object with optional features (GPS, Sunroof, Airbags). (Creational - Builder)
+Add a toString() method in the builder to print car details. (Builder - String Representation)
+📅 Day 4: Prototype Pattern
+Implement a Prototype Pattern for cloning employee objects. (Creational - Prototype)
+Modify the prototype implementation to support deep cloning. (Prototype - Deep Copy)
+📅 Day 5: Adapter Pattern
+Implement an Adapter Pattern to convert a USB device into a Type-C device. (Structural - Adapter)
+Create an adapter that allows a Rectangle class to be used as a Square. (Adapter - Geometric Shapes)
+📅 Day 6: Decorator Pattern
+Implement a Decorator Pattern to add extra features (extra cheese, extra toppings) to a Pizza. (Structural - Decorator)
+Create a TextFormatter that adds bold and italic styles dynamically. (Decorator - Text Styling)
+📅 Day 7: Observer Pattern
+Implement an Observer Pattern for a weather monitoring system (Observer: User, Subject: Weather Station). (Behavioral - Observer)
+Extend the observer to notify multiple users of weather updates. (Observer - Multiple Subscribers)
+📅 Day 8: Strategy Pattern
+Implement a Strategy Pattern for choosing different payment methods (Credit Card, PayPal, UPI). (Behavioral - Strategy)
+Extend the strategy to allow discounts based on the payment method. (Strategy - Discount System)
+📅 Day 9: Command Pattern
+Implement a Command Pattern for controlling a home automation system (Turn on/off lights, AC). (Behavioral - Command)
+Extend the command pattern to support an undo operation. (Command - Undo Feature)
+📅 Day 10: Template Method Pattern
+Implement a Template Method Pattern for processing an online order (steps: select item, pay, deliver). (Behavioral - Template Method)
+Modify the template to support multiple delivery options (Standard, Express). (Template - Delivery Options)
